@@ -7,6 +7,7 @@ import { Error } from '../componentes/Error'
 import { Login } from '../componentes/Login'
 import { Courses } from '../componentes/Courses'
 import { Navbar } from '../componentes/Navbar'
+import { SignIn } from '../componentes/SignIn'
 
 export const Router = () => {
   return (
@@ -22,6 +23,7 @@ export const Router = () => {
         <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/home' element={<Home/>}/>
+            <Route path='/signin' element={<SignIn/>}/>            
             <Route path='/contact' element={<Contact/>}/>
             <Route path='/login' element={<Login/>}/>
             <Route path='/testimonial' element={<Testimonials/>}/>
