@@ -1,6 +1,10 @@
 import React from 'react'
 import testimonials from '../../testimonial.js'
+
+
 export const Testimonials = () => {
+  
+
   return (
     <>
       <h1 className='testimonial-title'>Our clients say...</h1>
@@ -16,6 +20,8 @@ export const Testimonials = () => {
           </div>
         ))
       }
+      
+
     </div>
     </>
   )
